@@ -5,15 +5,37 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>corso javascript</title>
-        <style></style>
+        <link rel="stylesheet" href="./css/main.css" />
+        <style>
+            .paragrafo {
+                background-color: black;
+                color: aquamarine;
+            }
+        </style>
     </head>
     <body>
-        <h1 class="">Hello World!!!! Corso Javascript</h1>
-        <h3>Hello World! Corso Javascript</h3>
+        <script 
+        src="https://code.jquery.com/jquery-3.6.1.js" 
+        integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" 
+        crossorigin="anonymous"></script>
+        
+        <h1 id="titolo" style="background-color: red; color: blue">Hello World!!!!</h1>
+        <h1 >Corso Javascript</h1>
+        <h3 id="sottotitolo">Hello World! Corso Javascript</h3>
         <h6>Intestazone</h6>
-        <p>paragrafo</p>
         <div>
-            <ul>
+            <p class="paragrafo" data-index="0">paragrafo</p>
+            <p class="paragrafo" data-index="1">paragrafo1</p>
+            <p class="paragrafo" data-index="2">paragrafo2</p>
+            <p id="paragrafoConAttr" class="paragrafo" data-ciaone="antani" >paragrafo3</p>
+            <p>paragrafo3</p>
+            <a href="#prova">Vai all'intestazione prova!</a>
+            <a href="https://google.it" target="_blank"> Vai a google!</a>
+        </div>
+        <br /><br /><br /><br /><br /><br /><br />
+        <hr /> <hr /> <hr /> <hr /> <hr /> <hr /> <hr /> <hr />
+        <div >
+            <ul id="lista">
                 <li>asd</li>
             </ul>
         </div>
@@ -31,6 +53,49 @@
                 </tr>
             </tbody>
         </table>
-        <script src="./js/corso.js"></script>
+        <h1 id="prova">prova</h1>"
+        
+        <br /><br /><br /><br /><br /><br /><br />
+        <br /><br /><br /><br /><br /><br /><br />
+        <br /><br /><br /><br /><br /><br /><br />
+        <br /><br /><br /><br /><br /><br /><br />
+        <br /><br /><br /><br /><br /><br /><br />
+        <br /><br /><br /><br /><br /><br /><br />
+        <hr /> <hr /> <hr /> <hr /> <hr /> <hr /> <hr /> <hr />
+        <table>
+            <thead>
+                <th>Colonna 1</th>
+                <th>Colonna 2</th>
+            </thead>
+            <tbody>
+                <tr data-gender="maschio">
+                    <td>riga 1 colonna 1</td>
+                    <td>riga 1 colonna 2</td>
+                </tr>
+                <tr data-gender="femmina">
+                    <td>riga 2 colonna 1</td>
+                    <td>riga 2 colonna 2</td>
+                </tr>
+                <tr data-gender="femmina">
+                    <td>riga 2 colonna 1</td>
+                    <td>riga 2 colonna 2</td>
+                </tr>
+                <tr data-gender="maschio">
+                    <td>riga 2 colonna 1</td>
+                    <td>riga 2 colonna 2</td>
+                </tr>
+                <tr data-gender="femmina">
+                    <td>riga 2 colonna 1</td>
+                    <td>riga 2 colonna 2</td>
+                </tr>
+            </tbody>
+        </table>
+        
+        
+        <!-- moment -->
+        <!-- import jquery -->
+        <!-- <script src="./js/corso.js"></script> -->
+        
+        <script src="./js/corso_avanzato.js"></script>
     </body>
 </html>

@@ -1,0 +1,53 @@
+body {
+  background: #464646;
+  color: #fff;
+}
+
+#titolo {
+  color: violet !important
+}
+
+.paragrafo {
+  background-color: aqua ;
+  color: coral ;
+}
+
+#paragrafoConAttr {
+  background-color: red;
+  color: green;
+}
+
+/* 
+margin
+padding
+border
+
+margin: top right bottom left;
+margin: vertical horizontal;
+*/
+
+table {
+  margin : 500px auto;
+  background-color: coral;
+  color: yellow;
+  border: 1px solid black;
+}
+
+table > tbody > tr > td {
+  background-color: yellow;
+  color: coral;
+  border: 1px solid black;
+}
+
+table > thead {
+  background-color: black;
+  color: yellow;
+  border: 2px solid black;
+}
+
+tr[data-gender="maschio"] > td {
+  background-color: blue !important;
+}
+tr[data-gender="femmina"] > td {
+  background-color: pink !important;
+}
