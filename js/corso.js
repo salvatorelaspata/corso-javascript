@@ -200,7 +200,7 @@ ar.push({ name: 'ciao' });
 console.log(ar);
 console.log(Array.isArray(ar));
 
-debugger;
+// debugger;
 
 // cicli --- break - continue
 // for(inizializzazione; condizione; incremento)
@@ -209,3 +209,48 @@ for (let i = 0; i < ar.length; i++) {
     ar[i] += ' - ' + i;
     console.log(ar[i]);
 }
+
+// let wA = 0;
+// while (wA < 10) {
+//     console.log('while --> ', wA);
+//     // chiamata
+//     wA++;
+// }
+
+// do while
+// let dA = 0;
+// do {
+//     console.log('do while --> ', dA);
+//     dA++;
+// } while (dA < 10);
+
+// let mille = 0;
+
+// while (true) {
+//     mille++;
+//     // ciclo infinito
+//     if (mille % 2 !== 0) {
+//         continue;
+//     }
+//     console.log('mille --> ', mille);
+//     // console.log('while true');
+//     if (mille === 100) break;
+// }
+
+// funzioni
+/**
+ * @param {number} a numero
+ * @param {number} b numero
+ * @returns number somma
+ */
+function somma(a, b) {
+    return a + b;
+}
+
+const somma1 = (a, b) => {
+    return a + b;
+};
+
+console.log(somma('asd', 'asd'));
+console.log(somma(123, 321));
+console.log(somma1(321, 321));
