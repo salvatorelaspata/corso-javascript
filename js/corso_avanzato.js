@@ -48,6 +48,9 @@ const groupBy = (items, key) => items.reduce(
 )
 const groupByCognome = groupBy(arrayJSon, "cognome")
 
+//esempio di join 
+const concArray = array.join('')
+
 // ci permette di ciclare il contenuto dell'array
 // parametri callback: valore, indice, array
 array.forEach(function (element, index) {
