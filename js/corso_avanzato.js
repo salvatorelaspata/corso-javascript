@@ -3,6 +3,51 @@
 // foreach
 const array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
+const arrayJSon = [
+  {nome: 'Mario', cognome: 'Rossi'},
+  {nome: 'Luca', cognome: 'Verdi'},
+  {nome: 'Gianni', cognome: 'Marroni'},
+  {nome: 'Maria', cognome: 'Gialli'},
+  {nome: 'Valeria', cognome: 'Gialli'}
+]
+
+//filter - restituisce un array in base al predicato presente nella callback
+arrayNomiFilter = arrayJSon.filter(persona => persona.nome.substring(0, 3) === 'Mar' && (persona.cognome.substring(0,3) === 'Ros' || persona.cognome.substring(0,3) === 'Gia'))
+
+//find - se trova un item in un'array , restituisce il primo item che trova in base al predicato presente nella callback, altrimenti undefined
+oNomiFind = arrayJSon.find(persona => persona.nome.substring(0, 3) === 'Mar' && persona.cognome.substring(0,3) === 'Ros')
+
+//find - se trova un item in un'array , restituisce il primo item che trova in base al predicato presente nella callback, altrimenti restituisce -1
+iIndexNomiFindIndex = arrayJSon.findIndex(persona => persona.nome.substring(0, 3) === 'Mar' && persona.cognome.substring(0,3) === 'Gia')
+
+//sort su stringhe - riordina elementi di un array in base al predicato presente nella callback
+aSortedArrayNomi = arrayJSon.sort((personaA, personaB) =>  ('' + personaA.cognome).localeCompare(personaB.cognome))
+
+//sort su numeri - dal più grande al più piccolo
+aSortedNumbers = array.sort((a,b) => b - a)
+
+//sort su numeri - dal piccolo al più grande
+aSorteNumbers2 = aSortedNumbers.sort((a,b) => a - b)
+
+//reduce su numeri - calcolo somma
+const sumWithInitial = array.reduce(
+  (accumulator, currentValue) => accumulator + currentValue,
+  0 //valore iniziale della somma
+)
+
+//reduce per raggruppamento per property (esempio: cognome)
+const groupBy = (items, key) => items.reduce(
+  (result, item) => ({
+    ...result,
+    [item[key]]: [
+      ...(result[item[key]] || []),
+      item,
+    ],
+  }), 
+  {},
+)
+const groupByCognome = groupBy(arrayJSon, "cognome")
+
 // ci permette di ciclare il contenuto dell'array
 // parametri callback: valore, indice, array
 array.forEach(function (element, index) {
@@ -21,6 +66,8 @@ const arrayMap = array.map((element, index) => {
 arrayMap[1] = 'antani'
 // console.log(arrayMap)
 // console.log(array)
+
+const arrayFilter = array.filter((item) => item % 2 === 0)
 
 // reference --- deep copy --- shallow copy
 const arrayReferenziato = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
@@ -337,7 +384,7 @@ const getData = (sUrl) => {
   
 }
 
-const provaPromise = async () => {
+const provaPromiseAll = async () => {
      var dataPosts =  await getData('https://jsonplaceholder.typicode.com/posts')
      var dataUsers =  await getData('https://jsonplaceholder.typicode.com/users')
      
@@ -354,7 +401,7 @@ const provaPromise = async () => {
             })
 }
 
-provaPromise()
+provaPromiseAll()
 
 
 const promiseProva = () => {
