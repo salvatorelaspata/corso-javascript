@@ -272,3 +272,101 @@ new Promise((resolve, _) => {
     resolve(e)
   }
 })
+
+
+const getJQueryPromise = (sUrl) => {
+  return new Promise((resolve, reject) => {
+      $.ajax({
+        url: sUrl,
+        method: 'GET',
+        success: function (data) {
+          resolve(data)
+        },
+        error: function (error) {
+          resolve(error)
+        },
+      })
+  })
+}
+
+const callDbPromise = async function () {
+  Promise.all([getJQueryPromise('https://jsonplaceholder.typicode.com/posts'), 
+              getJQueryPromise('https://jsonplaceholder.typicode.com/users')])
+         .then(res => {
+            console.log(res)
+         })
+} ()
+
+
+const prova = function () {
+  $.ajax({
+    url: 'https://jsonplaceholder.typicode.com/posts',
+    method: 'GET',
+    success: function (dataPosts) {
+      $.ajax({
+        url: 'https://jsonplaceholder.typicode.com/users',
+        method: 'GET',
+        success: function (dataUsers) {
+           console.log(dataPosts)
+           console.log(dataUsers)
+        },
+        error: function (error) {
+          
+        },
+      })
+    },
+    error: function (error) {
+      
+    },
+  })
+} 
+
+const getData = (sUrl) => {
+  return new Promise((resolve, reject ) => {
+    $.ajax({
+      url: sUrl,
+      method: 'GET',
+      success: function (data) {
+        resolve(data)
+      },
+      error: function (error) {
+        reject(error)
+      },
+    })
+  })
+  
+}
+
+const provaPromise = async () => {
+     var dataPosts =  await getData('https://jsonplaceholder.typicode.com/posts')
+     var dataUsers =  await getData('https://jsonplaceholder.typicode.com/users')
+     
+     console.log(dataPosts)
+     console.log(dataUsers)
+
+    Promise.all([getData('https://jsonplaceholder.typicode.com/posts'),
+                getData('https://jsonplaceholder.typicode.com/users')])
+            .then((res) => {
+              console.log(res[0])
+              console.log(res[1])
+            })
+            .catch(res => {
+            })
+}
+
+provaPromise()
+
+
+const promiseProva = () => {
+  new Promise((resolve, reject) =>  {
+     resolve(1)
+  })
+  .then(res => {
+    console.log(res * 2)
+    return res * 2
+  })
+  .then(res => {
+    console.log(res * 2)
+  })
+}
+promiseProva()
