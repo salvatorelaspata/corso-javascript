@@ -3,3 +3,5 @@
 h2.test[data-personale="inizializzazione"] { color: black;}
 h2.test[data-colore="red"] { color: red;}
 h2.test[data-colore="yellow"] { color: yellow;}
+h2.test[data-colore="pink"] { color: pink;}
+h2.test[data-colore="green"] { color: green;}

@@ -1,3 +1,11 @@
+function eventoCambiaColore(e) {
+  var tastoPremuto = $(e.currentTarget);
+  var tastoThis = $(this);
+  var dataColore = tastoPremuto.data("color");
+  $("#test").attr("data-colore", dataColore);
+  debugger;
+}
+
 function agganciaEvento(selettore, evento) {
   //funzione globale per agganciare un evento ad un selettore tramite js
   $(selettore).on(evento, function (e) {
@@ -52,4 +60,6 @@ $(document).ready(function () {
   // });
   agganciaEvento("#input", "keyup");
   agganciaEvento("#input2", "keyup");
+  var $buttons = $("button");
+  $buttons.on("click", eventoCambiaColore);
 });
