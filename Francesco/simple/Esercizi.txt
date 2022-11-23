@@ -1,0 +1,6 @@
+1) Creare un testo in un tag html visto (qualsiasi elemento è ok), 
+    aggiungere 4 tasti  differenti che possano permettere di cambiare colore al testo, 
+    il tutto utilizzando jquery, possibilmente anche il css
+
+1.2) lo stesso esercizio sopra, ma con l'obbligo di usare un metodo per tutti e 4 i tasti,
+    quindi senza creare 4 funzioni di cambio colore
