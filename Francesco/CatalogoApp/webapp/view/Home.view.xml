@@ -1,0 +1,27 @@
+<mvc:View controllerName="CatalogoApp.controller.Home"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns:l="sap.ui.layout"
+    xmlns:c="sap.ui.core"
+    xmlns="sap.m"
+    height="100%"
+    busyIndicatorDelay="0">
+    <Page title="HOME">
+        <Panel expandable="true"
+            expanded="true"
+            headerText="Sono un pannello">
+            <content>
+                <Button text="{i18n>title}"
+                    type="Ghost"
+                    press=".onPressButton">
+
+                </Button>
+            </content>
+            <customData>
+                <c:CustomData key="valore_custom"
+                    value="custom valore"
+                    writeToDom="true"/>
+
+            </customData>
+        </Panel>
+    </Page>
+</mvc:View>

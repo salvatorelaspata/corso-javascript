@@ -1,0 +1,21 @@
+<mvc:View controllerName="CatalogoApp.controller.App"
+  displayBlock="true"
+  xmlns="sap.m"
+  xmlns:mvc="sap.ui.core.mvc">
+  <Toolbar >
+    <content>
+      <Text text="Testo toolbar sopra app">
+
+      </Text>
+    </content>
+  </Toolbar>
+  <SplitApp id="idAppControl">
+    <detailPages>
+
+    </detailPages>
+    <masterPages>
+
+    </masterPages>
+  </SplitApp>
+
+</mvc:View>

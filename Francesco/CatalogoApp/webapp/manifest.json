@@ -1,0 +1,129 @@
+{
+  "_version": "1.21.0",
+  "sap.app": {
+    "id": "CatalogoApp",
+    "type": "application",
+    "i18n": "i18n/i18n.properties",
+    "applicationVersion": {
+      "version": "1.0.0"
+    },
+    "title": "{{appTitle}}",
+    "description": "{{appDescription}}",
+    "dataSources": {
+      "northsource": {
+        "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/",
+        "type": "OData",
+        "settings": {
+          "odataVersion": "2.0",
+          "annotations": []
+        }
+      }
+    }
+  },
+  "sap.ui": {
+    "technology": "UI5",
+    "icons": {
+      "icon": "",
+      "favIcon": "",
+      "phone": "",
+      "phone@2": "",
+      "tablet": "",
+      "tablet@2": ""
+    },
+    "deviceTypes": {
+      "desktop": true,
+      "tablet": true,
+      "phone": true
+    }
+  },
+  "sap.ui5": {
+    "flexEnabled": true,
+    "dependencies": {
+      "minUI5Version": "1.60.0",
+      "libs": {
+        "sap.ui.core": {},
+        "sap.m": {},
+        "sap.ui.layout": {}
+      }
+    },
+    "contentDensities": {
+      "compact": true,
+      "cozy": true
+    },
+    "models": {
+      "mainModel": {
+        "type": "sap.ui.model.json.JSONModel"
+      },
+      "i18n": {
+        "type": "sap.ui.model.resource.ResourceModel",
+        "settings": {
+          "bundleName": "CatalogoApp.i18n.i18n"
+        }
+      }
+    },
+    "resources": {
+      "css": [
+        {
+          "uri": "css/style.css"
+        }
+      ],
+      "js": [
+        {
+          "uri": "js/main.js"
+        }
+      ]
+    },
+    "rootView": {
+      "viewName": "CatalogoApp.view.App",
+      "type": "XML",
+      "async": true,
+      "id": "idAppControl"
+    },
+    "routing": {
+      "config": {
+        "routerClass": "sap.m.routing.Router",
+        "viewType": "XML",
+        "viewPath": "CatalogoApp.view",
+        "controlId": "idAppControl",
+        "controlAggregation": "detailPages",
+        "async": true
+      },
+      "routes": [
+        {
+          "pattern": "",
+          "name": "casa",
+          "target": ["casaTarget"]
+        },
+        { "pattern": "pagina2", "name": "Pagina2", "target": "targetPagina2" },
+        {
+          "pattern": "unione",
+          "name": "Unione",
+          "target": ["targetHomeUnione", "targetDetUnione"]
+        }
+      ],
+      "targets": {
+        "targetPagina2": {
+          "viewName": "Pagina2",
+          "viewId": "Pagina2ID"
+        },
+        "casaTarget": {
+          "controlAggregation": "masterPages",
+          "viewType": "XML",
+          "viewName": "Home",
+          "viewLevel": 1,
+          "viewId": "HomeID"
+        },
+
+        "targetHomeUnione": {
+          "controlAggregation": "masterPages",
+          "viewName": "Pagina2",
+          "viewId": "Pagina2ID2"
+        },
+        "targetDetUnione": {
+          "viewName": "Home",
+          "viewId": "Home2"
+        }
+      }
+    }
+  }
+}
