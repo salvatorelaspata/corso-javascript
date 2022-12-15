@@ -1,0 +1,467 @@
+{
+  "Amministrazione": [
+    {
+      "Codice": "000",
+      "Descrizione": "Entrata bilancio"
+    },
+    {
+      "Codice": "020",
+      "Descrizione": "MINISTERO DELL'ECONOMIA E DELLE FINANZE"
+    },
+    {
+      "Codice": "030",
+      "Descrizione": "MINISTERO DELLO SVILUPPO ECONOMICO"
+    },
+    {
+      "Codice": "040",
+      "Descrizione": "MINISTERO DEL LAVORO E DELLE POLITICHE SOCIALI"
+    },
+    {
+      "Codice": "050",
+      "Descrizione": "MINISTERO DELLA GIUSTIZIA"
+    },
+    {
+      "Codice": "060",
+      "Descrizione": "MINISTERO DEGLI AFFARI ESTERI E DELLA COOPERAZIONE INTERNAZIONALE"
+    },
+    {
+      "Codice": "070",
+      "Descrizione": "MINISTERO DELL'ISTRUZIONE"
+    },
+    {
+      "Codice": "080",
+      "Descrizione": "MINISTERO DELL'INTERNO"
+    },
+    {
+      "Codice": "090",
+      "Descrizione": "MINISTERO DELL'AMBIENTE E DELLA TUTELA DEL TERRITORIO E DEL MARE"
+    },
+    {
+      "Codice": "100",
+      "Descrizione": "MINISTERO DELLE INFRASTRUTTURE E DEI TRASPORTI"
+    },
+    {
+      "Codice": "110",
+      "Descrizione": "MINISTERO  DELL'UNIVERSITA' E DELLA RICERCA"
+    },
+    {
+      "Codice": "120",
+      "Descrizione": "MINISTERO DELLA DIFESA"
+    },
+    {
+      "Codice": "130",
+      "Descrizione": "MINISTERO DELLE POLITICHE AGRICOLE ALIMENTARI E FORESTALI"
+    },
+    {
+      "Codice": "140",
+      "Descrizione": "MINISTERO PER I BENI E LE ATTIVITA' CULTURALI E PER IL TURISMO"
+    },
+    {
+      "Codice": "150",
+      "Descrizione": "MINISTERO DELLA SALUTE"
+    },
+    {
+      "Codice": "999",
+      "Descrizione": "Entrata bilancio"
+    }
+  ],
+  "Fase": [
+    {
+      "Anno": "",
+      "Codice": "",
+      "Descrizione": ""
+    },
+    {
+      "Anno": 2023,
+      "Codice": "DLB",
+      "Descrizione": "Disegno di Legge di Bilancio"
+    },
+    { "Anno": 2023, "Codice": "NV", "Descrizione": "Note di Variazione" },
+    { "Anno": 2023, "Codice": "LB", "Descrizione": "Legge di Bilancio" },
+    {
+      "Anno": 2022,
+      "Codice": "DLB",
+      "Descrizione": "Disegno di Legge di Bilancio"
+    },
+    { "Anno": 2022, "Codice": "NV", "Descrizione": "Note di Variazione" },
+    { "Anno": 2022, "Codice": "LB", "Descrizione": "Legge di Bilancio" }
+  ],
+  "Prospetti": [
+    {
+      "AMMINISTRAZIONE": 20,
+      "PROSPETTO": 678,
+      "DESCRIZIONE": "ALLEGATO TECNICO PER AZIONI E CAPITOLI",
+      "ANNO_FASE": 2022,
+      "FASE": "DLB",
+      "NOTA": "LE VARIAZIONI NON GIUSTIFICATE DA NOTA DEVONO INTENDERSI \"IN RELAZIONE ALLE ESIGENZE\". "
+    },
+    {
+      "AMMINISTRAZIONE": 30,
+      "PROSPETTO": 678,
+      "DESCRIZIONE": "ALLEGATO TECNICO PER AZIONI E CAPITOLI",
+      "ANNO_FASE": 2022,
+      "FASE": "DLB",
+      "NOTA": ""
+    },
+    {
+      "AMMINISTRAZIONE": 40,
+      "PROSPETTO": 678,
+      "DESCRIZIONE": "ALLEGATO TECNICO PER AZIONI E CAPITOLI",
+      "ANNO_FASE": 2022,
+      "FASE": "DLB",
+      "NOTA": ""
+    },
+    {
+      "AMMINISTRAZIONE": 50,
+      "PROSPETTO": 678,
+      "DESCRIZIONE": "ALLEGATO TECNICO PER AZIONI E CAPITOLI",
+      "ANNO_FASE": 2022,
+      "FASE": "DLB",
+      "NOTA": ""
+    },
+    {
+      "AMMINISTRAZIONE": 60,
+      "PROSPETTO": 678,
+      "DESCRIZIONE": "ALLEGATO TECNICO PER AZIONI E CAPITOLI",
+      "ANNO_FASE": 2022,
+      "FASE": "DLB",
+      "NOTA": ""
+    },
+    {
+      "AMMINISTRAZIONE": 70,
+      "PROSPETTO": 678,
+      "DESCRIZIONE": "ALLEGATO TECNICO PER AZIONI E CAPITOLI",
+      "ANNO_FASE": 2022,
+      "FASE": "DLB",
+      "NOTA": ""
+    },
+    {
+      "AMMINISTRAZIONE": 80,
+      "PROSPETTO": 678,
+      "DESCRIZIONE": "ALLEGATO TECNICO PER AZIONI E CAPITOLI",
+      "ANNO_FASE": 2022,
+      "FASE": "DLB",
+      "NOTA": ""
+    },
+    {
+      "AMMINISTRAZIONE": 90,
+      "PROSPETTO": 678,
+      "DESCRIZIONE": "ALLEGATO TECNICO PER AZIONI E CAPITOLI",
+      "ANNO_FASE": 2021,
+      "FASE": "DLB",
+      "NOTA": ""
+    },
+    {
+      "AMMINISTRAZIONE": 100,
+      "PROSPETTO": 678,
+      "DESCRIZIONE": "ALLEGATO TECNICO PER AZIONI E CAPITOLI",
+      "ANNO_FASE": 2022,
+      "FASE": "DLB",
+      "NOTA": ""
+    },
+    {
+      "AMMINISTRAZIONE": 110,
+      "PROSPETTO": 678,
+      "DESCRIZIONE": "ALLEGATO TECNICO PER AZIONI E CAPITOLI",
+      "ANNO_FASE": 2022,
+      "FASE": "DLB",
+      "NOTA": ""
+    },
+    {
+      "AMMINISTRAZIONE": 120,
+      "PROSPETTO": 678,
+      "DESCRIZIONE": "ALLEGATO TECNICO PER AZIONI E CAPITOLI",
+      "ANNO_FASE": 2022,
+      "FASE": "DLB",
+      "NOTA": ""
+    },
+    {
+      "AMMINISTRAZIONE": 130,
+      "PROSPETTO": 678,
+      "DESCRIZIONE": "ALLEGATO TECNICO PER AZIONI E CAPITOLI",
+      "ANNO_FASE": 2022,
+      "FASE": "DLB",
+      "NOTA": ""
+    },
+    {
+      "AMMINISTRAZIONE": 140,
+      "PROSPETTO": 678,
+      "DESCRIZIONE": "ALLEGATO TECNICO PER AZIONI E CAPITOLI",
+      "ANNO_FASE": 2023,
+      "FASE": "DLB",
+      "NOTA": ""
+    },
+    {
+      "AMMINISTRAZIONE": 150,
+      "PROSPETTO": 678,
+      "DESCRIZIONE": "ALLEGATO TECNICO PER AZIONI E CAPITOLI",
+      "ANNO_FASE": 2022,
+      "FASE": "DLB",
+      "NOTA": ""
+    },
+    {
+      "AMMINISTRAZIONE": 160,
+      "PROSPETTO": 678,
+      "DESCRIZIONE": "ALLEGATO TECNICO PER AZIONI E CAPITOLI",
+      "ANNO_FASE": 2022,
+      "FASE": "DLB",
+      "NOTA": ""
+    },
+    {
+      "AMMINISTRAZIONE": 20,
+      "PROSPETTO": 25,
+      "DESCRIZIONE": "ALLEGATO TECNICO PER AZIONI E CAPITOLI_25",
+      "ANNO_FASE": 2022,
+      "FASE": "DLB",
+      "NOTA": ""
+    },
+    {
+      "AMMINISTRAZIONE": 30,
+      "PROSPETTO": 25,
+      "DESCRIZIONE": "ALLEGATO TECNICO PER AZIONI E CAPITOLI_25",
+      "ANNO_FASE": 2022,
+      "FASE": "DLB",
+      "NOTA": ""
+    },
+    {
+      "AMMINISTRAZIONE": 40,
+      "PROSPETTO": 25,
+      "DESCRIZIONE": "ALLEGATO TECNICO PER AZIONI E CAPITOLI_25",
+      "ANNO_FASE": 2022,
+      "FASE": "DLB",
+      "NOTA": ""
+    },
+    {
+      "AMMINISTRAZIONE": 50,
+      "PROSPETTO": 25,
+      "DESCRIZIONE": "ALLEGATO TECNICO PER AZIONI E CAPITOLI_25",
+      "ANNO_FASE": 2022,
+      "FASE": "DLB",
+      "NOTA": ""
+    },
+    {
+      "AMMINISTRAZIONE": 60,
+      "PROSPETTO": 25,
+      "DESCRIZIONE": "ALLEGATO TECNICO PER AZIONI E CAPITOLI_25",
+      "ANNO_FASE": 2022,
+      "FASE": "DLB",
+      "NOTA": ""
+    },
+    {
+      "AMMINISTRAZIONE": 70,
+      "PROSPETTO": 25,
+      "DESCRIZIONE": "ALLEGATO TECNICO PER AZIONI E CAPITOLI_25",
+      "ANNO_FASE": 2022,
+      "FASE": "DLB",
+      "NOTA": ""
+    },
+    {
+      "AMMINISTRAZIONE": 80,
+      "PROSPETTO": 25,
+      "DESCRIZIONE": "ALLEGATO TECNICO PER AZIONI E CAPITOLI_25",
+      "ANNO_FASE": 2022,
+      "FASE": "DLB",
+      "NOTA": ""
+    },
+    {
+      "AMMINISTRAZIONE": 90,
+      "PROSPETTO": 25,
+      "DESCRIZIONE": "ALLEGATO TECNICO PER AZIONI E CAPITOLI_25",
+      "ANNO_FASE": 2021,
+      "FASE": "DLB",
+      "NOTA": ""
+    },
+    {
+      "AMMINISTRAZIONE": 100,
+      "PROSPETTO": 1,
+      "DESCRIZIONE": "ALLEGATO TECNICO PER AZIONI E CAPITOLI_1",
+      "ANNO_FASE": 2022,
+      "FASE": "DLB",
+      "NOTA": ""
+    },
+    {
+      "AMMINISTRAZIONE": 110,
+      "PROSPETTO": 1,
+      "DESCRIZIONE": "ALLEGATO TECNICO PER AZIONI E CAPITOLI_1",
+      "ANNO_FASE": 2022,
+      "FASE": "DLB",
+      "NOTA": ""
+    },
+    {
+      "AMMINISTRAZIONE": 120,
+      "PROSPETTO": 1,
+      "DESCRIZIONE": "ALLEGATO TECNICO PER AZIONI E CAPITOLI_1",
+      "ANNO_FASE": 2022,
+      "FASE": "DLB",
+      "NOTA": ""
+    },
+    {
+      "AMMINISTRAZIONE": 130,
+      "PROSPETTO": 1,
+      "DESCRIZIONE": "ALLEGATO TECNICO PER AZIONI E CAPITOLI_1",
+      "ANNO_FASE": 2022,
+      "FASE": "DLB",
+      "NOTA": ""
+    },
+    {
+      "AMMINISTRAZIONE": 140,
+      "PROSPETTO": 1,
+      "DESCRIZIONE": "ALLEGATO TECNICO PER AZIONI E CAPITOLI_1",
+      "ANNO_FASE": 2023,
+      "FASE": "DLB",
+      "NOTA": ""
+    },
+    {
+      "AMMINISTRAZIONE": 150,
+      "PROSPETTO": 1,
+      "DESCRIZIONE": "ALLEGATO TECNICO PER AZIONI E CAPITOLI_1",
+      "ANNO_FASE": 2022,
+      "FASE": "DLB",
+      "NOTA": ""
+    },
+    {
+      "AMMINISTRAZIONE": 160,
+      "PROSPETTO": 1,
+      "DESCRIZIONE": "ALLEGATO TECNICO PER AZIONI E CAPITOLI_1",
+      "ANNO_FASE": 2022,
+      "FASE": "DLB",
+      "NOTA": ""
+    },
+    {
+      "AMMINISTRAZIONE": "999",
+      "PROSPETTO": 801,
+      "DESCRIZIONE": "RELAZIONE ILLUSTRATIVA UNICA AL BILANCIO",
+      "ANNO_FASE": 2022,
+      "FASE": "DLB",
+      "NOTA": ""
+    },
+    {
+      "AMMINISTRAZIONE": "999",
+      "PROSPETTO": 802,
+      "DESCRIZIONE": "ARTICOLATO UNICO (CON 2 TITOLI)",
+      "ANNO_FASE": 2022,
+      "FASE": "DLB",
+      "NOTA": ""
+    },
+    {
+      "AMMINISTRAZIONE": "999",
+      "PROSPETTO": 803,
+      "DESCRIZIONE": "BILANCIO PROGRAMMATICO DELLO STATO AL NETTO DELLE REGOLAZIONI CONTABILI E DEBITORIE E DEI RIMBORSI IVA",
+      "ANNO_FASE": 2022,
+      "FASE": "DLB",
+      "NOTA": ""
+    },
+    {
+      "AMMINISTRAZIONE": "999",
+      "PROSPETTO": 804,
+      "DESCRIZIONE": "TABELLA A(ART.21 C.1. TER LETT. B)",
+      "ANNO_FASE": 2023,
+      "FASE": "DLB",
+      "NOTA": ""
+    },
+    {
+      "AMMINISTRAZIONE": "000",
+      "PROSPETTO": 805,
+      "DESCRIZIONE": "RAPPORTO SULLE SPESE FISCALI, COMMA 11-BIS DELL\"ARTICOLO 21 DELLA LEGGE N. 196 DEL 2009",
+      "ANNO_FASE": 2022,
+      "FASE": "DLB",
+      "NOTA": ""
+    },
+    {
+      "AMMINISTRAZIONE": "999",
+      "PROSPETTO": 805,
+      "DESCRIZIONE": "TABELLA B(ART.21 C.1. TER LETT. B)",
+      "ANNO_FASE": 2022,
+      "FASE": "DLB",
+      "NOTA": ""
+    },
+    {
+      "AMMINISTRAZIONE": "999",
+      "PROSPETTO": 806,
+      "DESCRIZIONE": "RELAZIONE TECNICA",
+      "ANNO_FASE": 2022,
+      "FASE": "DLB",
+      "NOTA": ""
+    },
+    {
+      "AMMINISTRAZIONE": "999",
+      "PROSPETTO": 807,
+      "DESCRIZIONE": "EX ALLEGATO 3 PROSPETTO RIEPILOGATIVO EFFETTI MANOVRA",
+      "ANNO_FASE": 2022,
+      "FASE": "DLB",
+      "NOTA": ""
+    },
+    {
+      "AMMINISTRAZIONE": "060",
+      "PROSPETTO": 808,
+      "DESCRIZIONE": "POLITICHE DI COOPERAZIONE INTERNAZIONALE PER LO SVILUPPO AI SENSI ART. 14 LEGGE 11 AGOSTO 2014 N. 125",
+      "ANNO_FASE": 2022,
+      "FASE": "DLB",
+      "NOTA": ""
+    },
+    {
+      "AMMINISTRAZIONE": "020",
+      "PROSPETTO": 809,
+      "DESCRIZIONE": "SCHEDE ILLUSTRATIVE DELLE RISORSE FINANZIARIE PER LA PROGETTAZIONE E LA REALIZZAZIONE DELLE OPERE PUBBLICHE",
+      "ANNO_FASE": 2022,
+      "FASE": "DLB",
+      "NOTA": ""
+    },
+    {
+      "AMMINISTRAZIONE": "030",
+      "PROSPETTO": 809,
+      "DESCRIZIONE": "SCHEDE ILLUSTRATIVE DELLE RISORSE FINANZIARIE PER LA PROGETTAZIONE E LA REALIZZAZIONE DELLE OPERE PUBBLICHE",
+      "ANNO_FASE": 2022,
+      "FASE": "DLB",
+      "NOTA": ""
+    },
+    {
+      "AMMINISTRAZIONE": "040",
+      "PROSPETTO": 809,
+      "DESCRIZIONE": "SCHEDE ILLUSTRATIVE DELLE RISORSE FINANZIARIE PER LA PROGETTAZIONE E LA REALIZZAZIONE DELLE OPERE PUBBLICHE",
+      "ANNO_FASE": 2022,
+      "FASE": "DLB",
+      "NOTA": ""
+    },
+    {
+      "AMMINISTRAZIONE": "050",
+      "PROSPETTO": 809,
+      "DESCRIZIONE": "SCHEDE ILLUSTRATIVE DELLE RISORSE FINANZIARIE PER LA PROGETTAZIONE E LA REALIZZAZIONE DELLE OPERE PUBBLICHE",
+      "ANNO_FASE": 2022,
+      "FASE": "DLB",
+      "NOTA": ""
+    },
+    {
+      "AMMINISTRAZIONE": "060",
+      "PROSPETTO": 809,
+      "DESCRIZIONE": "SCHEDE ILLUSTRATIVE DELLE RISORSE FINANZIARIE PER LA PROGETTAZIONE E LA REALIZZAZIONE DELLE OPERE PUBBLICHE",
+      "ANNO_FASE": 2021,
+      "FASE": "DLB",
+      "NOTA": ""
+    },
+    {
+      "AMMINISTRAZIONE": "070",
+      "PROSPETTO": 809,
+      "DESCRIZIONE": "SCHEDE ILLUSTRATIVE DELLE RISORSE FINANZIARIE PER LA PROGETTAZIONE E LA REALIZZAZIONE DELLE OPERE PUBBLICHE",
+      "ANNO_FASE": 2022,
+      "FASE": "DLB",
+      "NOTA": ""
+    },
+    {
+      "AMMINISTRAZIONE": "080",
+      "PROSPETTO": 809,
+      "DESCRIZIONE": "SCHEDE ILLUSTRATIVE DELLE RISORSE FINANZIARIE PER LA PROGETTAZIONE E LA REALIZZAZIONE DELLE OPERE PUBBLICHE",
+      "ANNO_FASE": 2022,
+      "FASE": "DLB",
+      "NOTA": ""
+    },
+    {
+      "AMMINISTRAZIONE": "090",
+      "PROSPETTO": 809,
+      "DESCRIZIONE": "SCHEDE ILLUSTRATIVE DELLE RISORSE FINANZIARIE PER LA PROGETTAZIONE E LA REALIZZAZIONE DELLE OPERE PUBBLICHE",
+      "ANNO_FASE": 2022,
+      "FASE": "DLB",
+      "NOTA": ""
+    }
+  ]
+}
